@@ -1,6 +1,6 @@
 {
   "name": "posthtml-bem-pug-bug",
-  "repository": "",
+  "repository": "https://github.com/Grawl/posthtml-bem-pug-bug",
   "private": true,
   "browserify": {
     "transform": [
