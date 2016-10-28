@@ -1,0 +1,12 @@
+extends views/layout
+block content
+	main(block='foo')
+		// elem == foo-bar
+		header(elem='bar')
+		mixin item
+			// elem ignored by PostHTML BEM plugin :(
+			li(elem='baz') item
+		ul
+			+item
+			+item
+			+item
